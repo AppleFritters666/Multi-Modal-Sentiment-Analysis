@@ -1,0 +1,51 @@
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1300px;
+}
+
+.io{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 1300px;
+
+}
+
+.textIn{
+    background-color: rgb(122, 178, 178);
+    height: 350px;
+    width: 350px;
+    border: none;
+    font-size:x-large;
+}
+
+.transform{
+    background-color:  rgb(220, 95, 0);
+    border:none; 
+    
+    
+}
+
+.result{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(122, 178, 178);
+    font-size: large;
+    word-wrap: break-word;
+}
+
+.textButton{
+    background-color: rgb(205, 232, 229);
+    border:none;
+    border-radius: 3px;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}

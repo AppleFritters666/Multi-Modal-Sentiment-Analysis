@@ -1,0 +1,40 @@
+
+
+.display{
+    width: 500px;
+    height: 350px;
+}
+
+.io{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+
+.in{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(122, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.picButton{
+    background-color: rgb(205, 232, 229);
+    border:none;
+    border-radius: 3px;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.picInput{
+    font-size: large;
+}
